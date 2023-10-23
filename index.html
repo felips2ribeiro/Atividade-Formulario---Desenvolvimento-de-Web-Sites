@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="area-do-formulario">
+            <div class="introducao">
+                <h1 class="titulo">Formulário</h1>
+                <p class="texto">Para conhecer melhor os alunos do Uniacademia</p>
+            </div>
+
+            <hr>
+
+            <form class="formulario">
+                <div class="secao secao-1">
+                    <div class="area-nome-completo">
+                        <input type="text" id="nome" placeholder="Nome" class="nome-info">
+                        <input type="text" id="sobrenome" placeholder="Sobrenome" class="nome-info">
+                    </div>
+
+                    
+                    <div class="area-email">
+                        <input type="text" id="email" class="email-info" placeholder="Email">
+                    </div>
+
+                    <div class="area-telefone-e-insta">
+                        <input type="tel" id="tel" class="telefone-e-insta-info" placeholder="Celular">
+                        <input type="text" id="instagram" class="telefone-e-insta-info" placeholder="Instagram">
+                    </div>
+
+
+
+
+                    <label class="label">Data de Nascimento</label>
+
+                    <div class="area-data-de-nascimento">
+                    <select name="dia" class="data-info">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+
+                    <select name="mes" class="data-info">
+                        <option value="jan">Jan</option>
+                        <option value="fev">Fev</option>
+                        <option value="mar">Mar</option>
+                        <option value="abr">Abr</option>
+                        <option value="mai">Mai</option>
+                        <option value="jun">Jun</option>
+                        <option value="jul">Jul</option>
+                        <option value="ago">Ago</option>
+                        <option value="set">Set</option>
+                        <option value="out">Out</option>
+                        <option value="nov">Nov</option>
+                        <option value="dez">Dez</option>
+                    </select>
+
+                    <select name="ano" class="data-info">
+                        <option value="1993">1993</option>
+                        <option value="1994">1994</option>
+                        <option value="1995">1995</option>
+                        <option value="1996">1996</option>
+                        <option value="1997">1997</option>
+                        <option value="1998">1998</option>
+                        <option value="1999">1999</option>
+                        <option value="2000">2000</option>
+                        <option value="2001">2001</option>
+                        <option value="2002">2002</option>
+                        <option value="2003">2003</option>
+                        <option value="2004">2004</option>
+                    </select>
+                    </div>
+
+                    <label class="label">Gênero</label>
+
+                    <div class="area-genero">
+                        <div class="feminino">
+                            <label for="">Feminino</label>
+                            <input type="radio" name="genero" id="feminino" value="feminino">
+                        </div>
+
+                        <div class="masculino">
+                            <label for="">Masculino</label>
+                            <input type="radio" name="genero" id="masculino" value="masculino">
+                        </div>
+
+                        <div class="outro">
+                            <label for="">Outro</label>
+                            <input type="radio" name="genero" id="outro" value="outro">
+                        </div>
+                    </div>
+                    
+                    <label class="label">Endereço</label>
+
+                    <div class="area-endereco">
+                        <input required class="endereco-info" type="text" name="" id="cep" placeholder="Cep">
+                        <input class="endereco-info" type="text" id="rua" placeholder="Rua">
+                        <input class="endereco-info" type="text" id="numero" placeholder="Número">
+                        <input class="endereco-info" type="text" id="complemento" placeholder="Complemento">
+                        <input class="endereco-info" type="text" id="bairro" placeholder="Bairro">
+                        <input class="endereco-info" type="text" id="cidade" placeholder="Cidade">
+                        <select class="estado-info" name="estado" id="estado">
+                            <option value="MG">MG</option>
+                            <option value="RJ">RJ</option>
+                        </select>
+                    </div>
+                    <button class="botao-avancar" id="botao-avancar">Avançar</button>
+                </div>
+                <div class="secao secao-2">
+                    <label class="label">Curso</label>
+                    <div class="area-curso">
+                        <select class="curso-info" id="curso" name="curso">
+                            <option value="bsi">Sistema de Informações</option>
+                            <option value="es">Engenharia de Software</option>
+                        </select>
+                        <select class="curso-info" id="periodo" name="periodo">
+                            <option value="1">1 Período</option>
+                            <option value="2">2 Período</option>
+                        </select>
+                    </div>
+                    <label class="label">Preferências</label>
+                    <div class="area-preferencia">
+                        <input class="preferencia-info" type="text" id="jogo-favorito" placeholder="Jogo Favorito">
+                        <input class="preferencia-info" type="text" id="serie-favorita" placeholder="Serie Favorita">
+                        <input class="preferencia-info" type="text" id="comida-favorita" placeholder="Comida Favorita">
+                        <input class="preferencia-info" type="text" id="materia-favorita" placeholder="Materia Favorita">
+                    </div>
+                    <div class="fim">
+                        <input class="preferencia-info" type="text" id="opniao" placeholder="Deixe uma opnião para o meu formulário">
+                    </div>
+                    <div class="botoes-2secao">
+                        <button id="botao-voltar">Voltar</button>
+                        <button id="botao-enviar">Enviar</button>
+                    </div>
+            </form>
+            <div id="mensagem-enviada" style="display: none;">
+                <p>Formulário enviado com sucesso!</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        const botaoVoltar = document.getElementById('botao-voltar');
+        const botaoAvancar = document.getElementById('botao-avancar');
+        const botaoEnviar = document.getElementById('botao-enviar');
+        const formulario = document.getElementById('formulario');
+        const secoes = document.querySelectorAll('.secao');
+        const mensagemEnviada = document.getElementById('mensagem-enviada');
+
+        let secaoAtual = 0;
+
+        botaoAvancar.addEventListener('click', (event) => {
+            event.preventDefault();
+            secoes[secaoAtual].style.display = 'none';
+            secaoAtual++;
+            if (secaoAtual < secoes.length) {
+                secoes[secaoAtual].style.display = 'block';
+            } else {
+            }
+        });
+
+        botaoVoltar.addEventListener('click', (event) => {
+            event.preventDefault();
+            secoes[secaoAtual].style.display = 'none';
+            secaoAtual--;
+            if (secaoAtual >= 0) {
+                secoes[secaoAtual].style.display = 'block';
+            }
+        });
+
+        botaoEnviar.addEventListener('click', (event) => {
+            event.preventDefault();
+            mensagemEnviada.style.display = 'block';
+        });
+    </script>
+</body>
+</html>

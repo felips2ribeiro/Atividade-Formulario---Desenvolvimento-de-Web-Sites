@@ -1,0 +1,254 @@
+html {
+    font-size: 55%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: url(background.jpg);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+}
+
+.area-do-formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 50rem;
+    border-radius: 1rem;
+}
+
+.introducao {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1rem;
+}
+
+.area-do-formulario .titulo {
+    font-size: 3.5rem;
+}
+
+.area-do-formulario .texto {
+    font-size: 1.5rem;
+    color: #606770;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    padding: 1.6rem;
+    font-size: 1.6rem;
+}
+
+.formulario .area-nome-completo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.formulario .nome-info {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    margin: 0.5rem;
+    font-size: 1.6rem;
+    border: 1px solid #ccd0d5;
+    border-radius: 0.5rem;
+    width: 100%;
+}   
+
+.formulario .label {
+    font-size: 1.2rem;
+    padding: 0.8rem 1rem;
+    text-align: center;
+}
+
+.formulario .area-data-de-nascimento {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.formulario .data-info {
+    width: 12.5rem;
+    height: 3.6rem;
+    font-size: 1.5rem;
+    border: 1px solid #ccd0d5;
+    border-radius: 0.5rem;
+}
+
+.formulario .area-email{
+    display: flex;
+}
+
+.formulario .email-info {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    margin: 0.5rem;
+    font-size: 1.6rem;
+    border: 1px solid #ccd0d5;
+    border-radius: 0.5rem;
+    width: 100%;
+}
+
+.formulario .area-telefone-e-insta {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.formulario .telefone-e-insta-info {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    margin: 0.5rem;
+    font-size: 1.6rem;
+    border: 1px solid #ccd0d5;
+    border-radius: 0.5rem;
+    width: 50%;
+}
+
+.formulario .area-genero {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.formulario .area-genero .feminino,
+.masculino,
+.outro {
+    border: 1px solid #ccd0d5;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.formulario .area-endereco {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.formulario .endereco-info {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    margin: 0.5rem;
+    font-size: 1.6rem;
+    border: 1px solid #ccd0d5;
+    border-radius: 0.5rem;
+}
+
+.area-endereco #cep{
+    width: 25%;
+}
+
+.area-endereco #rua{
+    width: 70%;
+}
+
+.area-endereco #numero{
+    width: 20%;
+}
+
+.area-endereco #complemento{
+    width: 75%;
+}
+
+.area-endereco #bairro{
+    width: 40%;
+}
+
+.area-endereco #cidade{
+    width: 38%;
+}
+
+
+select{
+    background-color: #f4f4f4;
+    padding: 1rem;
+    margin: 0.5rem;
+    font-size: 1.6rem;
+    border: 1px solid #ccd0d5;
+    border-radius: 0.5rem;
+}
+
+.formulario .preferencia-info {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    margin: 0.5rem;
+    font-size: 1.6rem;
+    border: 1px solid #ccd0d5;
+    border-radius: 0.5rem;
+}
+
+.botao-avancar{
+    background-color: #f4f4f4;
+    padding: 1rem;
+    margin: 0.5rem;
+    font-size: 1.6rem;
+    border: 1px solid #ccd0d5;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space;
+    margin-top: 1rem;
+    margin-left: 82%;
+}
+
+.botoes-2secao{
+    display: flex;
+    justify-content: space-between;
+}
+
+#botao-enviar, #botao-voltar{
+    background-color: #f4f4f4;
+    padding: 1rem;
+    margin: 0.5rem;
+    font-size: 1.6rem;
+    border: 1px solid #ccd0d5;
+    border-radius: 0.5rem;
+}
+
+.secao {
+    display: none;
+}
+
+.secao-1 {
+    display: block;
+}
+
+.formulario .curso-info {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    margin: 0.5rem;
+    font-size: 1.6rem;
+    border: 1px solid #ccd0d5;
+    border-radius: 0.5rem;
+    width: 100%;
+}   
+
+.formulario #opniao{
+    width: 100%;
+    height:max-content;
+}
+
+.area-curso{
+    display: flex;
+    justify-content: space-between;
+}
+
+.area-curso #curso{
+    width: 100%;
+}
+
+.area-curso #periodo{
+    width: 40%;
+}
